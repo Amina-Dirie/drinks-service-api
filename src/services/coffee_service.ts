@@ -1,15 +1,10 @@
-export const getCoffee = (name = 'Latte') => {
+export const getCoffee = (name: string = 'Latte') => {
     return {
     drinkType: 'Coffee',
     name ,
    };
  };
 
- export const getCoffeeByName = (name:string) => {
-    return {
-    drinkType: 'Coffee',
-    name,
-   };
- };
+
 
 
